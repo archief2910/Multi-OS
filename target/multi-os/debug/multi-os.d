@@ -1,0 +1,1 @@
+C:\Users\archi\multi-os\target\multi-os\debug\multi-os: C:\Users\archi\multi-os\src\gdt.rs C:\Users\archi\multi-os\src\interrupts.rs C:\Users\archi\multi-os\src\lib.rs C:\Users\archi\multi-os\src\main.rs C:\Users\archi\multi-os\src\serial.rs C:\Users\archi\multi-os\src\vga.rs

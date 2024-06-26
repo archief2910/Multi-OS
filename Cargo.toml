@@ -1,0 +1,24 @@
+[package]
+name = "multi-os"
+version = "0.1.0"
+edition = "2021"
+[profile.dev]
+panic = "abort" # disable stack unwinding on panic
+
+[profile.release]
+panic = "abort" # disable stack unwinding on panic
+[dependencies.lazy_static]
+version="1.0"
+features = ["spin_no_std"]
+[dependencies]
+bootloader= "0.9.29"
+volatile= "0.2.6"
+spin = "0.5.2"
+x86_64 = "0.14.2"
+uart_16550 = "0.2.0"
+pic8259="0.10.1"
+educe = "0.6.0"
+pc-keyboard = "0.7.0"
+[dependencies.indexed_valued_enums]
+version = "1.0.0"
+features=["derive"]

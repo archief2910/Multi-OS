@@ -1,0 +1,5 @@
+cargo:rustc-env=UEFI_BOOTLOADER_PATH=C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-uefi.efi
+cargo:rustc-env=BIOS_BOOT_SECTOR_PATH=C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-boot-sector.bin
+cargo:rustc-env=BIOS_STAGE_2_PATH=C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-stage-2.bin
+cargo:rustc-env=BIOS_STAGE_3_PATH=C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-stage-3.bin
+cargo:rustc-env=BIOS_STAGE_4_PATH=C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-stage-4.bin

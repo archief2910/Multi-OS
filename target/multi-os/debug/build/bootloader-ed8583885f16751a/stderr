@@ -1,0 +1,259 @@
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded bootloader-x86_64-bios-stage-3 v0.11.7
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded bootloader-x86_64-bios-stage-2 v0.11.7
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded bootloader-x86_64-bios-boot-sector v0.11.7
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded bootloader-x86_64-uefi v0.11.7
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded bootloader-x86_64-bios-stage-4 v0.11.7
+    Blocking waiting for file lock on package cache
+  Installing bootloader-x86_64-bios-stage-3 v0.11.7
+    Blocking waiting for file lock on package cache
+  Installing bootloader-x86_64-bios-stage-2 v0.11.7
+    Blocking waiting for file lock on package cache
+  Installing bootloader-x86_64-bios-boot-sector v0.11.7
+    Blocking waiting for file lock on package cache
+  Installing bootloader-x86_64-uefi v0.11.7
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+  Installing bootloader-x86_64-bios-stage-4 v0.11.7
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+warning: package `atomic-polyfill v0.1.11` in Cargo.lock is yanked in registry `crates-io`, consider running without --locked
+    Blocking waiting for file lock on package cache
+warning: package `atomic-polyfill v0.1.11` in Cargo.lock is yanked in registry `crates-io`, consider running without --locked
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded bootloader-x86_64-bios-common v0.11.7
+  Downloaded noto-sans-mono-bitmap v0.1.6
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded byteorder v1.4.3
+  Downloaded mbr-nostd v0.1.0
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded autocfg v1.1.0
+  Downloaded hash32 v0.2.1
+  Downloaded bit_field v0.10.2
+  Downloaded stable_deref_trait v1.2.0
+  Downloaded zero v0.1.3
+  Downloaded rand_core v0.6.4
+  Downloaded rustversion v1.0.13
+  Downloaded rustc_version v0.4.0
+  Downloaded scopeguard v1.1.0
+  Downloaded lock_api v0.4.10
+  Downloaded log v0.4.19
+  Downloaded ucs2 v0.3.2
+  Downloaded quote v1.0.29
+  Downloaded volatile v0.4.6
+  Downloaded semver v1.0.17
+  Downloaded spin v0.9.8
+  Downloaded proc-macro2 v1.0.63
+  Downloaded ryu v1.0.14
+  Downloaded unicode-ident v1.0.10
+  Downloaded spinning_top v0.2.5
+  Downloaded bootloader_api v0.11.7
+  Downloaded rand v0.8.5
+  Downloaded serde v1.0.166
+  Downloaded heapless v0.7.16
+  Downloaded uart_16550 v0.2.18
+  Downloaded raw-cpuid v10.7.0
+  Downloaded ptr_meta_derive v0.2.0
+  Downloaded serde_derive v1.0.166
+  Downloaded uefi-macros v0.11.0
+  Downloaded serde-json-core v0.5.0
+  Downloaded syn v2.0.23
+  Downloaded noto-sans-mono-bitmap v0.2.0
+  Downloaded ptr_meta v0.2.0
+  Downloaded xmas-elf v0.8.0
+  Downloaded x86_64 v0.14.10
+  Downloaded uefi v0.20.0
+  Downloaded conquer-once v0.3.2
+  Downloaded rand_hc v0.3.2
+  Downloaded conquer-util v0.3.0
+  Downloaded bootloader-x86_64-common v0.11.7
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded rsdp v2.0.0
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+ Downloading crates ...
+  Downloaded r-efi-alloc v1.0.0
+  Downloaded r-efi v4.4.0
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling compiler_builtins v0.1.109
+   Compiling core v0.0.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core)
+   Compiling bootloader-x86_64-bios-boot-sector v0.11.7
+   Compiling compiler_builtins v0.1.109
+   Compiling core v0.0.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core)
+   Compiling bootloader-x86_64-bios-stage-3 v0.11.7
+   Compiling compiler_builtins v0.1.109
+   Compiling core v0.0.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core)
+   Compiling bootloader-x86_64-bios-stage-2 v0.11.7
+   Compiling compiler_builtins v0.1.109
+   Compiling core v0.0.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core)
+   Compiling proc-macro2 v1.0.63
+   Compiling unicode-ident v1.0.10
+   Compiling quote v1.0.29
+   Compiling autocfg v1.1.0
+   Compiling compiler_builtins v0.1.109
+   Compiling semver v1.0.17
+   Compiling syn v1.0.109
+   Compiling lock_api v0.4.10
+   Compiling core v0.0.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core)
+   Compiling rustversion v1.0.13
+   Compiling serde v1.0.166
+   Compiling proc-macro2 v1.0.63
+   Compiling bootloader_api v0.11.7
+   Compiling autocfg v1.1.0
+   Compiling quote v1.0.29
+   Compiling unicode-ident v1.0.10
+   Compiling rustc_version v0.4.0
+   Compiling semver v1.0.17
+   Compiling serde v1.0.166
+   Compiling syn v2.0.23
+   Compiling rustversion v1.0.13
+   Compiling lock_api v0.4.10
+   Compiling heapless v0.7.16
+   Compiling bootloader_api v0.11.7
+   Compiling bootloader-x86_64-bios-stage-4 v0.11.7
+   Compiling syn v2.0.23
+   Compiling rustc_version v0.4.0
+   Compiling heapless v0.7.16
+   Compiling serde_derive v1.0.166
+   Compiling serde_derive v1.0.166
+   Compiling ptr_meta_derive v0.2.0
+   Compiling uefi-macros v0.11.0
+   Compiling rustc-std-workspace-core v1.99.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\rustc-std-workspace-core)
+   Compiling rustc-std-workspace-core v1.99.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\rustc-std-workspace-core)
+   Compiling rustc-std-workspace-core v1.99.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\rustc-std-workspace-core)
+   Compiling rustc-std-workspace-core v1.99.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\rustc-std-workspace-core)
+   Compiling rustc-std-workspace-core v1.99.0 (C:\Users\archi\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\rustc-std-workspace-core)
+   Compiling bootloader-x86_64-bios-common v0.11.7
+   Compiling noto-sans-mono-bitmap v0.1.6
+   Compiling scopeguard v1.1.0
+   Compiling scopeguard v1.1.0
+   Compiling byteorder v1.4.3
+   Compiling bitflags v1.3.2
+   Compiling bitflags v1.3.2
+   Compiling mbr-nostd v0.1.0
+   Compiling bootloader-x86_64-bios-common v0.11.7
+   Compiling volatile v0.4.6
+   Compiling bit_field v0.10.2
+   Compiling rand_core v0.6.4
+   Compiling rand_core v0.6.4
+   Compiling byteorder v1.4.3
+   Compiling volatile v0.4.6
+   Compiling byteorder v1.4.3
+   Compiling x86_64 v0.14.10
+   Compiling hash32 v0.2.1
+   Compiling bit_field v0.10.2
+   Compiling hash32 v0.2.1
+   Compiling x86_64 v0.14.10
+   Compiling spin v0.9.8
+   Compiling spin v0.9.8
+   Compiling zero v0.1.3
+   Compiling zero v0.1.3
+   Compiling conquer-util v0.3.0
+   Compiling conquer-util v0.3.0
+   Compiling stable_deref_trait v1.2.0
+   Compiling log v0.4.19
+   Compiling stable_deref_trait v1.2.0
+    Finished `stage-1` profile [optimized] target(s) in 2m 00s
+  Installing C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-boot-sector
+   Installed package `bootloader-x86_64-bios-boot-sector v0.11.7` (executable `bootloader-x86_64-bios-boot-sector`)
+   Compiling conquer-once v0.3.2
+   Compiling log v0.4.19
+   Compiling conquer-once v0.3.2
+   Compiling xmas-elf v0.8.0
+warning: be sure to add `C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin` to your PATH to be able to run the installed binaries
+   Compiling xmas-elf v0.8.0
+   Compiling rand v0.8.5
+   Compiling rand_hc v0.3.2
+   Compiling rand_hc v0.3.2
+   Compiling uart_16550 v0.2.18
+   Compiling spinning_top v0.2.5
+   Compiling rand v0.8.5
+   Compiling uart_16550 v0.2.18
+   Compiling ucs2 v0.3.2
+   Compiling raw-cpuid v10.7.0
+   Compiling noto-sans-mono-bitmap v0.2.0
+   Compiling spinning_top v0.2.5
+    Finished `stage-2` profile [optimized] target(s) in 2m 03s
+  Installing C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-stage-2
+   Installed package `bootloader-x86_64-bios-stage-2 v0.11.7` (executable `bootloader-x86_64-bios-stage-2`)
+   Compiling raw-cpuid v10.7.0
+warning: be sure to add `C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin` to your PATH to be able to run the installed binaries
+   Compiling ptr_meta v0.2.0
+   Compiling ryu v1.0.14
+   Compiling ryu v1.0.14
+   Compiling bootloader-boot-config v0.11.7
+   Compiling noto-sans-mono-bitmap v0.2.0
+   Compiling usize_conversions v0.2.0
+   Compiling rsdp v2.0.0
+   Compiling usize_conversions v0.2.0
+   Compiling serde-json-core v0.5.0
+   Compiling bootloader-boot-config v0.11.7
+   Compiling serde-json-core v0.5.0
+   Compiling bootloader-x86_64-bios-common v0.11.7
+   Compiling uefi v0.20.0
+   Compiling bootloader-x86_64-common v0.11.7
+   Compiling bootloader-x86_64-common v0.11.7
+   Compiling bootloader-x86_64-uefi v0.11.7
+    Finished `stage-4` profile [optimized + debuginfo] target(s) in 2m 12s
+  Installing C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-stage-4
+   Installed package `bootloader-x86_64-bios-stage-4 v0.11.7` (executable `bootloader-x86_64-bios-stage-4`)
+warning: be sure to add `C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin` to your PATH to be able to run the installed binaries
+    Finished `release` profile [optimized] target(s) in 2m 13s
+  Installing C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-uefi.efi
+   Installed package `bootloader-x86_64-uefi v0.11.7` (executable `bootloader-x86_64-uefi.efi`)
+warning: be sure to add `C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin` to your PATH to be able to run the installed binaries
+    Finished `stage-3` profile [optimized + debuginfo] target(s) in 2m 46s
+  Installing C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin\bootloader-x86_64-bios-stage-3
+   Installed package `bootloader-x86_64-bios-stage-3 v0.11.7` (executable `bootloader-x86_64-bios-stage-3`)
+warning: be sure to add `C:\Users\archi\multi-os\target\multi-os\debug\build\bootloader-ed8583885f16751a\out\bin` to your PATH to be able to run the installed binaries

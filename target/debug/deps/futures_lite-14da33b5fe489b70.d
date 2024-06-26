@@ -1,0 +1,11 @@
+C:\Users\archi\multi-os\target\debug\deps\libfutures_lite-14da33b5fe489b70.rmeta: C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\lib.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\future.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\prelude.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\stream.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\io.rs
+
+C:\Users\archi\multi-os\target\debug\deps\libfutures_lite-14da33b5fe489b70.rlib: C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\lib.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\future.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\prelude.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\stream.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\io.rs
+
+C:\Users\archi\multi-os\target\debug\deps\futures_lite-14da33b5fe489b70.d: C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\lib.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\future.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\prelude.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\stream.rs C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\io.rs
+
+C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\lib.rs:
+C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\future.rs:
+C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\prelude.rs:
+C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\stream.rs:
+C:\Users\archi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-lite-1.13.0\src\io.rs:
