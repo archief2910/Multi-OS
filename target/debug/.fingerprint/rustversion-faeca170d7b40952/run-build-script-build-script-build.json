@@ -1,1 +1,0 @@
-{"rustc":10870986364495057332,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[17162292966369300404,"build_script_build",false,9416374260304607932]],"local":[{"RerunIfChanged":{"output":"debug\\build\\rustversion-faeca170d7b40952\\output","paths":["build/build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
