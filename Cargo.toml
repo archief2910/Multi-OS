@@ -10,8 +10,10 @@ panic = "abort" # disable stack unwinding on panic
 [dependencies.lazy_static]
 version="1.0"
 features = ["spin_no_std"]
+[dependencies.bootloader]
+version="0.9.29"
+features = ["map_physical_memory"]
 [dependencies]
-bootloader= "0.9.29"
 volatile= "0.2.6"
 spin = "0.5.2"
 x86_64 = "0.14.2"
@@ -19,6 +21,12 @@ uart_16550 = "0.2.0"
 pic8259="0.10.1"
 educe = "0.6.0"
 pc-keyboard = "0.7.0"
+rlsf = "0.2.1"
+linked_list_allocator = "0.9.0"
 [dependencies.indexed_valued_enums]
 version = "1.0.0"
 features=["derive"]
+[unstable]
+build-std = ["core", "compiler_builtins","alloc"]
+build-std-features = ["compiler-builtins-mem"]
+

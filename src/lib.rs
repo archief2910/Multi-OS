@@ -4,13 +4,17 @@
 #![feature(abi_x86_interrupt)]
 #![test_runner(crate::test_runner)]
 #![reexport_test_harness_main = "test_main"]
-
+#![feature(maybe_uninit_slice)]
+#![feature(const_mut_refs)]
 use core::panic::PanicInfo;
-
+extern crate alloc;
 pub mod interrupts;
 pub mod serial;
 pub mod vga;
 pub mod gdt;
+pub mod comphysical;
+
+pub mod allocator;
 pub fn init() {
     gdt::init();
     interrupts::init_idt();

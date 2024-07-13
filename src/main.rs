@@ -1,24 +1,38 @@
 #![no_std]
 #![no_main]
-
+#![feature(maybe_uninit_slice)]
 #![feature(custom_test_frameworks)]
 #![test_runner(multi_os::test_runner)]
 #![reexport_test_harness_main = "test_main"]
 #![feature(abi_x86_interrupt)]
-
-
+#![feature(const_mut_refs)]
 #[allow(dead_code)]
+extern crate alloc;
 
-mod interrupts;
+
+pub mod interrupts;
+pub mod comphysical;
 mod serial;
 mod vga;
 mod gdt;
 use::core::arch::asm;
-#[no_mangle]
+use bootloader::{BootInfo, entry_point};
 
-pub extern "C" fn _start() {
-    println!("Hello World{}", "!");
+entry_point!(_start);
+
+
+ fn _start(boot_info: &'static BootInfo)->!{
+    use x86_64::VirtAddr;
+    
+    println!("/"); println!("\\"); println!("/");println!("\\");
+   println!("/");         println!("\\/");        println!("\\");
+  println!("/");                                   println!("\\");
     multi_os::init();
+
+
+   
+
+    
     
     
     #[cfg(test)]
@@ -29,7 +43,12 @@ pub extern "C" fn _start() {
      
     multi_os::hlt_loop();
 }
-
+fn invalid_opcode_exception() {
+    unsafe {
+        // Trigger a security exception. This is just an example and may need to be adjusted based on your environment.
+        asm!("ud2", options(nomem, nostack, preserves_flags));
+    }
+}
 fn trigger_divide_by_zero() {
     unsafe {
         asm!(

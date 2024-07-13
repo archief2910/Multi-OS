@@ -65,6 +65,7 @@ use indexed_valued_enums::{enum_valued_as,Valued};
         idt.general_protection_fault.set_handler_fn(general_protection_fault_handler);
         idt.x87_floating_point.set_handler_fn(x87_floating_point_handler);
         idt.simd_floating_point.set_handler_fn(simd_floating_point_handler);
+        idt.page_fault.set_handler_fn(page_fault_handler); 
         idt.alignment_check.set_handler_fn(alignment_check_handler);
         idt.virtualization.set_handler_fn(virtualization_check);
         idt.security_exception.set_handler_fn(security_exception_handler);
@@ -126,7 +127,7 @@ extern "x86-interrupt" fn bound_handler(stack_frame: InterruptStackFrame){
   panic!("bound_range exceeded \n{:#?}", stack_frame);
 }
 extern "x86-interrupt" fn invalid_opcode_handler(stack_frame: InterruptStackFrame){
-  panic!("invalid_opcode_handler \n{:#?}", stack_frame);
+  panic!("invalid_opcode \n{:#?}", stack_frame);
 }
 
 extern "x86-interrupt" fn device_not_available_handler(stack_frame: InterruptStackFrame){
@@ -169,4 +170,23 @@ extern "x86-interrupt" fn virtualization_check(stack_frame: InterruptStackFrame)
 
 extern "x86-interrupt" fn security_exception_handler(stack_frame: InterruptStackFrame, _error_code: u64){
   panic!("security_exception \n{:#?}", stack_frame);
+}
+use x86_64::structures::idt::PageFaultErrorCode;
+pub fn hlt_loop() -> ! {
+  loop {
+      x86_64::instructions::hlt();
+  }
+}
+
+extern "x86-interrupt" fn page_fault_handler(
+    stack_frame: InterruptStackFrame,
+    error_code: PageFaultErrorCode,
+) {
+    use x86_64::registers::control::Cr2;
+
+    println!("EXCEPTION: PAGE FAULT");
+    println!("Accessed Address: {:?}", Cr2::read());
+    println!("Error Code: {:?}", error_code);
+    println!("{:#?}", stack_frame);
+    hlt_loop();
 }
