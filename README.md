@@ -1,5 +1,6 @@
-                 ![Multi-OS Image](https://github.com/user-attachments/assets/c3d1a75b-6813-440d-82d5-8015a5c18f9a)
+                 ![Multi-OS Image](https://github.com/user-attachments/assets/50e7f928-01fa-4bfb-87c7-f75984b409e2)
 
+                  ![Screenshot 2024-07-15 094525](https://github.com/user-attachments/assets/50e7f928-01fa-4bfb-87c7-f75984b409e2)
 
 # Multi-OS Overview
                             
