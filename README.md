@@ -22,7 +22,8 @@ Leveraging knowledge from the Microprocessor Interface and Programming course (P
 
 ## Paging Mechanism and Heap Allocation
    
-![Alt text](https://github.com/user-attachments/assets/1b6c31ba-c299-4dcf-bbf0-36a1c3c82ebe)
+
+![1_HPdc7g-Xr01InlrygKOIkg](https://github.com/user-attachments/assets/40d58f40-1835-4177-b450-1331c6b9a2b6)
 
       
 In the project, two types of paging mechanisms were implemented:
