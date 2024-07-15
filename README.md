@@ -2,13 +2,12 @@
 
 
 
-# Multi-OS Overview
-                            
+# Multi-OS 
 
 Multi-OS is a minimal operating system kernel for x86_64 systems, created by transforming a freestanding binary and integrating it with a BIOS-based bootloader. The project involves designing a custom target specifically tailored for the x86_64 architecture, ensuring compatibility and efficient hardware management. Critical steps include disabling SIMD instructions and the red-zone to prevent stack corruption and simplify the kernel's initial design. This focus allows for successful hardware initialization through BIOS, providing a solid foundation for a minimal yet functional OS kernel.
 
 ## CPU Exceptions
-
+![Alt text](https://github.com/user-attachments/assets/8e5bdb67-51f7-40cd-aeb9-497ca1656226)
 Leveraging knowledge from the Microprocessor Interface and Programming course (PC-EC-MIP207), we focused on handling CPU exceptions with precision and efficiency. Key challenges included:
 
 - **Stack-Switching Mechanisms**: Developed to manage double faults caused by stack overflows, ensuring system stability during critical faults.
