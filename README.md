@@ -1,13 +1,12 @@
-![Alt text](https://github.com/user-attachments/assets/c3d1a75b-6813-440d-82d5-8015a5c18f9a)
-
-
+![Multi-OS Overview](https://github.com/user-attachments/assets/c3d1a75b-6813-440d-82d5-8015a5c18f9a)
 
 # Multi-OS 
 
 Multi-OS is a minimal operating system kernel for x86_64 systems, created by transforming a freestanding binary and integrating it with a BIOS-based bootloader. The project involves designing a custom target specifically tailored for the x86_64 architecture, ensuring compatibility and efficient hardware management. Critical steps include disabling SIMD instructions and the red-zone to prevent stack corruption and simplify the kernel's initial design. This focus allows for successful hardware initialization through BIOS, providing a solid foundation for a minimal yet functional OS kernel.
 
 ## CPU Exceptions
-![Alt text](https://github.com/user-attachments/assets/8e5bdb67-51f7-40cd-aeb9-497ca1656226)
+![CPU Exceptions](https://github.com/user-attachments/assets/8e5bdb67-51f7-40cd-aeb9-497ca1656226)
+
 Leveraging knowledge from the Microprocessor Interface and Programming course (PC-EC-MIP207), we focused on handling CPU exceptions with precision and efficiency. Key challenges included:
 
 - **Stack-Switching Mechanisms**: Developed to manage double faults caused by stack overflows, ensuring system stability during critical faults.
@@ -21,11 +20,8 @@ Leveraging knowledge from the Microprocessor Interface and Programming course (P
 - **Interrupt Descriptor Table (IDT)**: Stored as static for efficient and reliable access during interrupt handling, contributing to overall system efficiency.
 
 ## Paging Mechanism and Heap Allocation
-   
+![Paging Mechanisms](https://github.com/user-attachments/assets/40d58f40-1835-4177-b450-1331c6b9a2b6)
 
-![1_HPdc7g-Xr01InlrygKOIkg](https://github.com/user-attachments/assets/40d58f40-1835-4177-b450-1331c6b9a2b6)
-
-      
 In the project, two types of paging mechanisms were implemented:
 
 1. **Recursive Paging**: Simplifies page table management by creating a self-referential structure, aiding in virtual-to-physical address translation and debugging.
@@ -33,9 +29,8 @@ In the project, two types of paging mechanisms were implemented:
 2. **Mapping the Entire Physical Memory**: Creates a direct mapping of physical memory into the virtual address space, facilitating direct access for kernel-level operations.
 
 ### Heap Schemes
-         
-  ![Alt text](https://github.com/user-attachments/assets/715dc049-7f18-4dcb-bb4e-5a3c791e8dbe)
-      
+![Heap Allocation](https://github.com/user-attachments/assets/715dc049-7f18-4dcb-bb4e-5a3c791e8dbe)
+
 1. **Fixed Block Size Allocation**: Memory is divided into fixed-size blocks to minimize fragmentation and simplify allocation, efficiently handling consistent-sized objects.
 
 2. **Slab Allocation with Bitmaps**: Manages memory for same-sized objects using bitmaps to track free and occupied slots. This method offers fast allocation/deallocation, reduces fragmentation, and ensures thread safety through atomic operations.
