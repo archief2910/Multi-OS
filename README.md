@@ -1,4 +1,3 @@
-```markdown
 # Multi-OS Overview
 
 Multi-OS is a minimal operating system kernel for x86_64 systems, created by transforming a freestanding binary and integrating it with a BIOS-based bootloader. The project involves designing a custom target specifically tailored for the x86_64 architecture, ensuring compatibility and efficient hardware management. Critical steps include disabling SIMD instructions and the red-zone to prevent stack corruption and simplify the kernel's initial design. This focus allows for successful hardware initialization through BIOS, providing a solid foundation for a minimal yet functional OS kernel.
@@ -32,7 +31,7 @@ In the project, two types of paging mechanisms were implemented:
 2. **Slab Allocation with Bitmaps**: Manages memory for same-sized objects using bitmaps to track free and occupied slots. This method offers fast allocation/deallocation, reduces fragmentation, and ensures thread safety through atomic operations.
 
 These implementations provide a robust and efficient memory management system, significantly enhancing the performance and reliability of the operating system.
-```
+
 
 
 
