@@ -18,6 +18,8 @@ Over 15 CPU interrupts were successfully implemented, utilizing carefully crafte
 
 In terms of memory management, two types of paging mechanisms were implemented: recursive paging and mapping of the entire physical memory. Recursive paging simplifies page table management by creating a self-referential structure that aids in virtual-to-physical address translation and debugging. On the other hand, mapping the entire physical memory provides a direct mapping into the virtual address space, allowing kernel-level operations to access physical memory directly.
 
+![Heap Allocation](https://github.com/user-attachments/assets/715dc049-7f18-4dcb-bb4e-5a3c791e8dbe)
+
 The project also introduced two heap allocation schemes. The first, fixed block size allocation, divides memory into fixed-size blocks, minimizing fragmentation and simplifying allocation. This approach is particularly efficient for handling objects of consistent sizes. The second scheme, slab allocation with bitmaps, manages memory for same-sized objects by utilizing bitmaps to track free and occupied slots. This method offers rapid allocation and deallocation, reduces fragmentation, and ensures thread safety through atomic operations.
 
 Together, these implementations create a robust and efficient memory management system, significantly enhancing the performance and reliability of the Multi-OS kernel.
