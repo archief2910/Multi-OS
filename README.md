@@ -21,7 +21,10 @@ Leveraging knowledge from the Microprocessor Interface and Programming course (P
 - **Interrupt Descriptor Table (IDT)**: Stored as static for efficient and reliable access during interrupt handling, contributing to overall system efficiency.
 
 ## Paging Mechanism and Heap Allocation
+      ![what-are-paging-and-segmentation-paging-diagram-83049c7d4fcd94d0](https://github.com/user-attachments/assets/1b6c31ba-c299-4dcf-bbf0-36a1c3c82ebe)
 
+
+      
 In the project, two types of paging mechanisms were implemented:
 
 1. **Recursive Paging**: Simplifies page table management by creating a self-referential structure, aiding in virtual-to-physical address translation and debugging.
@@ -29,6 +32,7 @@ In the project, two types of paging mechanisms were implemented:
 2. **Mapping the Entire Physical Memory**: Creates a direct mapping of physical memory into the virtual address space, facilitating direct access for kernel-level operations.
 
 ### Heap Schemes
+         ![12-3](https://github.com/user-attachments/assets/715dc049-7f18-4dcb-bb4e-5a3c791e8dbe)
 
 1. **Fixed Block Size Allocation**: Memory is divided into fixed-size blocks to minimize fragmentation and simplify allocation, efficiently handling consistent-sized objects.
 
