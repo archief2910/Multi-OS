@@ -1,5 +1,5 @@
 # Multi-OS Overview
-                            ![Screenshot 2024-07-15 094525](https://github.com/user-attachments/assets/c986cdf9-3de6-43f5-899b-1cd734103648)
+                            <img width="377" alt="image" src="https://github.com/user-attachments/assets/c3d1a75b-6813-440d-82d5-8015a5c18f9a">
 
 Multi-OS is a minimal operating system kernel for x86_64 systems, created by transforming a freestanding binary and integrating it with a BIOS-based bootloader. The project involves designing a custom target specifically tailored for the x86_64 architecture, ensuring compatibility and efficient hardware management. Critical steps include disabling SIMD instructions and the red-zone to prevent stack corruption and simplify the kernel's initial design. This focus allows for successful hardware initialization through BIOS, providing a solid foundation for a minimal yet functional OS kernel.
 
