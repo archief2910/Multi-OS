@@ -2,42 +2,22 @@
 
 # Multi-OS 
 
-Multi-OS is a minimal operating system kernel for x86_64 systems, created by transforming a freestanding binary and integrating it with a BIOS-based bootloader. The project involves designing a custom target specifically tailored for the x86_64 architecture, ensuring compatibility and efficient hardware management. Critical steps include disabling SIMD instructions and the red-zone to prevent stack corruption and simplify the kernel's initial design. This focus allows for successful hardware initialization through BIOS, providing a solid foundation for a minimal yet functional OS kernel.
+Multi-OS is a minimal operating system kernel designed specifically for x86_64 systems. The project involves transforming a freestanding binary and integrating it with a BIOS-based bootloader. This undertaking required the creation of a custom target tailored to the x86_64 architecture, ensuring compatibility and efficient hardware management. Key decisions included disabling SIMD instructions and the red-zone to prevent stack corruption, which simplified the initial design of the kernel. This careful focus on hardware initialization through the BIOS laid a robust foundation for a minimal yet functional operating system kernel.
 
 ## CPU Exceptions
+
 ![CPU Exceptions](https://github.com/user-attachments/assets/8e5bdb67-51f7-40cd-aeb9-497ca1656226)
 
-Leveraging knowledge from the Microprocessor Interface and Programming course (PC-EC-MIP207), we focused on handling CPU exceptions with precision and efficiency. Key challenges included:
+A significant part of the project involved leveraging knowledge gained from the Microprocessor Interface and Programming course (PC-EC-MIP207) to handle CPU exceptions with precision. One of the challenges addressed was the development of stack-switching mechanisms to manage double faults caused by stack overflows, ensuring the system remained stable during critical faults. Additionally, we implemented the master-slave architecture of the 8259 Programmable Interrupt Controller (PIC), which was crucial for effective management of hardware interrupts and preventing deadlocks, allowing the system to handle multiple interrupts seamlessly.
 
-- **Stack-Switching Mechanisms**: Developed to manage double faults caused by stack overflows, ensuring system stability during critical faults.
-  
-- **Master-Slave Architecture of the 8259 PIC**: Utilized for effective hardware interrupt management and preventing deadlocks, allowing seamless handling of multiple interrupts.
-
-- **CPU Interrupts**: Successfully implemented over 15 interrupts with error handler functions designed to manage various scenarios, enhancing system robustness.
-
-- **Breakpoint Exceptions**: Implemented mechanisms to catch and resume normal execution after breakpoint exceptions, crucial for debugging.
-
-- **Interrupt Descriptor Table (IDT)**: Stored as static for efficient and reliable access during interrupt handling, contributing to overall system efficiency.
+Over 15 CPU interrupts were successfully implemented, utilizing carefully crafted error handler functions designed to address various scenarios, thus enhancing system robustness. Special attention was given to handling breakpoint exceptions; mechanisms were developed to catch these exceptions and allow the system to resume normal execution, which is vital for debugging purposes. Furthermore, the Interrupt Descriptor Table (IDT) was stored statically to ensure efficient and reliable access during interrupt handling, contributing to the overall efficiency of the system.
 
 ## Paging Mechanism and Heap Allocation
+
 ![Paging Mechanisms](https://github.com/user-attachments/assets/40d58f40-1835-4177-b450-1331c6b9a2b6)
 
-In the project, two types of paging mechanisms were implemented:
+In terms of memory management, two types of paging mechanisms were implemented: recursive paging and mapping of the entire physical memory. Recursive paging simplifies page table management by creating a self-referential structure that aids in virtual-to-physical address translation and debugging. On the other hand, mapping the entire physical memory provides a direct mapping into the virtual address space, allowing kernel-level operations to access physical memory directly.
 
-1. **Recursive Paging**: Simplifies page table management by creating a self-referential structure, aiding in virtual-to-physical address translation and debugging.
+The project also introduced two heap allocation schemes. The first, fixed block size allocation, divides memory into fixed-size blocks, minimizing fragmentation and simplifying allocation. This approach is particularly efficient for handling objects of consistent sizes. The second scheme, slab allocation with bitmaps, manages memory for same-sized objects by utilizing bitmaps to track free and occupied slots. This method offers rapid allocation and deallocation, reduces fragmentation, and ensures thread safety through atomic operations.
 
-2. **Mapping the Entire Physical Memory**: Creates a direct mapping of physical memory into the virtual address space, facilitating direct access for kernel-level operations.
-
-### Heap Schemes
-![Heap Allocation](https://github.com/user-attachments/assets/715dc049-7f18-4dcb-bb4e-5a3c791e8dbe)
-
-1. **Fixed Block Size Allocation**: Memory is divided into fixed-size blocks to minimize fragmentation and simplify allocation, efficiently handling consistent-sized objects.
-
-2. **Slab Allocation with Bitmaps**: Manages memory for same-sized objects using bitmaps to track free and occupied slots. This method offers fast allocation/deallocation, reduces fragmentation, and ensures thread safety through atomic operations.
-
-These implementations provide a robust and efficient memory management system, significantly enhancing the performance and reliability of the operating system.
-
-
-
-
-
+Together, these implementations create a robust and efficient memory management system, significantly enhancing the performance and reliability of the Multi-OS kernel.
