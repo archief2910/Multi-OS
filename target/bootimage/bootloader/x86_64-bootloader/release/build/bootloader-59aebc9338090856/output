@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=C:\Users\archi\multi-os\Cargo.toml
-cargo:rustc-link-search=native=C:\Users\archi\multi-os\target\bootimage\bootloader\x86_64-bootloader\release\build\bootloader-59aebc9338090856\out
-cargo:rustc-link-lib=static=kernel_bin-multi-os
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=\\?\C:\Users\archi\multi-os\target\multi-os\debug\multi-os
-cargo:rerun-if-changed=build.rs
